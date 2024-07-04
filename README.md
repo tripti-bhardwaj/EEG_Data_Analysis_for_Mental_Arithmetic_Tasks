@@ -1,4 +1,4 @@
-# EEG_Data_Analysis_for_Mental_Arithmetic_Tasks
+# EEG Data Analysis for Mental Arithmetic Tasks
 This project is an assignment for the IIT Roorkee internship in deep learning. It involves the analysis of EEG data during mental arithmetic tasks using both traditional power spectral density (PSD) analysis and advanced neural network models: EEGNet and Vision Transformer (ViT).
 
 ## Project Overview
@@ -6,6 +6,7 @@ The aim of this project is to classify EEG data recorded during resting and ment
 
 ## Data
 The dataset used in this project contains EEG recordings from 36 subjects, with each subject having two recordings: one during rest and one during a mental arithmetic task.
+and evaluation. It is sourced from the Mental Arithmetic Tasks Dataset available at PhysioNet (https://physionet.org/content/eegmat/1.0.0/). It is pre-cleaned and ready for use.
 
 ## Methodology
 ### 1. Data Loading and Preprocessing
