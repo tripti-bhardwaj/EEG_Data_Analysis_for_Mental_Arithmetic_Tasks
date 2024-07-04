@@ -4,7 +4,7 @@ This project is an assignment for the IIT Roorkee internship in deep learning. I
 # Project Overview
 The aim of this project is to classify EEG data recorded during resting and mental arithmetic tasks. The analysis involves feature extraction from EEG signals, training of deep learning models, and evaluating their performance.
 
-#Data
+# Data
 The dataset used in this project contains EEG recordings from 36 subjects, with each subject having two recordings: one during rest and one during a mental arithmetic task.
 
 # Methodology
@@ -16,6 +16,7 @@ Power spectral density (PSD) is computed for different frequency bands: Delta, T
 Features are extracted from the PSD values for each frequency band.
 The extracted features are used to train the models.
 3. Models
+
 EEGNet:
 - A convolutional neural network designed for EEG data classification.
 - The model architecture includes multiple convolutional layers, batch normalization, dropout, and dense layers.
